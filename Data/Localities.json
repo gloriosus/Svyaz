@@ -1,0 +1,898 @@
+[
+  {
+    "Id": 142994,
+    "Category": 6,
+    "Name": "Абрамовка",
+    "FullName": "д. Абрамовка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142745,
+    "Category": 1,
+    "Name": "Алексеевка",
+    "FullName": "с. Алексеевка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142996,
+    "Category": 1,
+    "Name": "Амурзет",
+    "FullName": "с. Амурзет",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143010,
+    "Category": 1,
+    "Name": "Аур",
+    "FullName": "с. Аур",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142762,
+    "Category": 1,
+    "Name": "Аэропорт",
+    "FullName": "с. Аэропорт",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 160436,
+    "Category": 1,
+    "Name": "Бабстово",
+    "FullName": "с. Бабстово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 214661,
+    "Category": 3,
+    "Name": "Бабстово",
+    "FullName": "ст. Бабстово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142952,
+    "Category": 1,
+    "Name": "Башмак",
+    "FullName": "с. Башмак",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142973,
+    "Category": 1,
+    "Name": "Башурово",
+    "FullName": "с. Башурово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143011,
+    "Category": 1,
+    "Name": "Белгородское",
+    "FullName": "с. Белгородское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142953,
+    "Category": 1,
+    "Name": "Биджан",
+    "FullName": "с. Биджан",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142974,
+    "Category": 2,
+    "Name": "Бира",
+    "FullName": "пос. Бира",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142975,
+    "Category": 2,
+    "Name": "Биракан",
+    "FullName": "пос. Биракан",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 6078,
+    "Category": 0,
+    "Name": "Биробиджан",
+    "FullName": "г. Биробиджан",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142746,
+    "Category": 1,
+    "Name": "Бирофельд",
+    "FullName": "с. Бирофельд",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142997,
+    "Category": 1,
+    "Name": "Благословенное",
+    "FullName": "с. Благословенное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142976,
+    "Category": 1,
+    "Name": "Будукан",
+    "FullName": "с. Будукан",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142747,
+    "Category": 1,
+    "Name": "Валдгейм",
+    "FullName": "с. Валдгейм",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142954,
+    "Category": 1,
+    "Name": "Венцелево",
+    "FullName": "с. Венцелево",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141518,
+    "Category": 1,
+    "Name": "Владимировка",
+    "FullName": "с. Владимировка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141519,
+    "Category": 1,
+    "Name": "Волочаевка-1",
+    "FullName": "с. Волочаевка-1",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141520,
+    "Category": 2,
+    "Name": "Волочаевка-2",
+    "FullName": "пос. Волочаевка-2",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142955,
+    "Category": 1,
+    "Name": "Воскресеновка",
+    "FullName": "с. Воскресеновка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142748,
+    "Category": 1,
+    "Name": "Головино",
+    "FullName": "с. Головино",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142956,
+    "Category": 1,
+    "Name": "Горное",
+    "FullName": "с. Горное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141521,
+    "Category": 1,
+    "Name": "Даниловка",
+    "FullName": "с. Даниловка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142977,
+    "Category": 1,
+    "Name": "Двуречье",
+    "FullName": "с. Двуречье",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141522,
+    "Category": 1,
+    "Name": "Дежневка",
+    "FullName": "с. Дежневка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 160435,
+    "Category": 3,
+    "Name": "Дежневка",
+    "FullName": "ст. Дежневка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142957,
+    "Category": 1,
+    "Name": "Дежнево",
+    "FullName": "с. Дежнево",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142749,
+    "Category": 1,
+    "Name": "Димитрово",
+    "FullName": "с. Димитрово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142998,
+    "Category": 1,
+    "Name": "Доброе",
+    "FullName": "с. Доброе",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142750,
+    "Category": 1,
+    "Name": "Дубовое",
+    "FullName": "с. Дубовое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142999,
+    "Category": 1,
+    "Name": "Екатерино-Никольское",
+    "FullName": "с. Екатерино-Никольское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142751,
+    "Category": 1,
+    "Name": "Желтый Яр",
+    "FullName": "с. Желтый Яр",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142978,
+    "Category": 1,
+    "Name": "Заречное",
+    "FullName": "с. Заречное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142979,
+    "Category": 2,
+    "Name": "Известковый",
+    "FullName": "пос. Известковый",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141523,
+    "Category": 3,
+    "Name": "Икура",
+    "FullName": "ст. Икура",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141534,
+    "Category": 1,
+    "Name": "им Тельмана",
+    "FullName": "с. им Тельмана",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142752,
+    "Category": 1,
+    "Name": "Казанка",
+    "FullName": "с. Казанка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142958,
+    "Category": 1,
+    "Name": "Калинино",
+    "FullName": "с. Калинино",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141524,
+    "Category": 1,
+    "Name": "Камышовка",
+    "FullName": "с. Камышовка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 214662,
+    "Category": 1,
+    "Name": "Квашнино",
+    "FullName": "с. Квашнино",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142980,
+    "Category": 1,
+    "Name": "Кимкан",
+    "FullName": "с. Кимкан",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142753,
+    "Category": 1,
+    "Name": "Кирга",
+    "FullName": "с. Кирга",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142960,
+    "Category": 1,
+    "Name": "Кирово",
+    "FullName": "с. Кирово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141525,
+    "Category": 1,
+    "Name": "Ключевое",
+    "FullName": "с. Ключевое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142754,
+    "Category": 1,
+    "Name": "Красивое",
+    "FullName": "с. Красивое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142950,
+    "Category": 1,
+    "Name": "Красный Восток",
+    "FullName": "с. Красный Восток",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142961,
+    "Category": 1,
+    "Name": "Кукелево",
+    "FullName": "с. Кукелево",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142981,
+    "Category": 2,
+    "Name": "Кульдур",
+    "FullName": "пос. Кульдур",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 175910,
+    "Category": 3,
+    "Name": "Лагар-Аул",
+    "FullName": "ст. Лагар-Аул",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142962,
+    "Category": 1,
+    "Name": "Лазарево",
+    "FullName": "с. Лазарево",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142972,
+    "Category": 3,
+    "Name": "Ленинск",
+    "FullName": "ст. Ленинск",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142951,
+    "Category": 1,
+    "Name": "Ленинское",
+    "FullName": "с. Ленинское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142982,
+    "Category": 1,
+    "Name": "Лондоко",
+    "FullName": "с. Лондоко",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142993,
+    "Category": 2,
+    "Name": "Лондоко-Завод",
+    "FullName": "пос. Лондоко-Завод",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143000,
+    "Category": 1,
+    "Name": "Луговое",
+    "FullName": "с. Луговое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 217420,
+    "Category": 3,
+    "Name": "Лумку-Корань",
+    "FullName": "ст. Лумку-Корань",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143001,
+    "Category": 1,
+    "Name": "Нагибово",
+    "FullName": "с. Нагибово",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142755,
+    "Category": 1,
+    "Name": "Надеждинское",
+    "FullName": "с. Надеждинское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142756,
+    "Category": 1,
+    "Name": "Найфельд",
+    "FullName": "с. Найфельд",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142970,
+    "Category": 1,
+    "Name": "Нижне-Ленинское",
+    "FullName": "с. Нижне-Ленинское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141533,
+    "Category": 1,
+    "Name": "Нижнеспасское",
+    "FullName": "с. Нижнеспасское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141526,
+    "Category": 2,
+    "Name": "Николаевка",
+    "FullName": "пос. Николаевка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142963,
+    "Category": 1,
+    "Name": "Новое",
+    "FullName": "с. Новое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142964,
+    "Category": 1,
+    "Name": "Новотроицкое",
+    "FullName": "с. Новотроицкое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 163538,
+    "Category": 1,
+    "Name": "Новый",
+    "FullName": "с. Новый",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 6079,
+    "Category": 0,
+    "Name": "Облучье",
+    "FullName": "г. Облучье",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143002,
+    "Category": 1,
+    "Name": "Озерное",
+    "FullName": "с. Озерное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142971,
+    "Category": 1,
+    "Name": "Октябрьское",
+    "FullName": "с. Октябрьское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141527,
+    "Category": 3,
+    "Name": "Оль",
+    "FullName": "ст. Оль",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141528,
+    "Category": 3,
+    "Name": "Ольгохта",
+    "FullName": "ст. Ольгохта",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142757,
+    "Category": 1,
+    "Name": "Опытное поле",
+    "FullName": "с. Опытное поле",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141529,
+    "Category": 1,
+    "Name": "Осиновка",
+    "FullName": "с. Осиновка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141530,
+    "Category": 1,
+    "Name": "Партизанское",
+    "FullName": "с. Партизанское",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142983,
+    "Category": 1,
+    "Name": "Пашково",
+    "FullName": "с. Пашково",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 173320,
+    "Category": 1,
+    "Name": "Песчаное",
+    "FullName": "с. Песчаное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 173337,
+    "Category": 1,
+    "Name": "Петровка",
+    "FullName": "с. Петровка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143003,
+    "Category": 1,
+    "Name": "Полевое",
+    "FullName": "с. Полевое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 163540,
+    "Category": 1,
+    "Name": "Помпеевка",
+    "FullName": "с. Помпеевка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142965,
+    "Category": 1,
+    "Name": "Преображеновка",
+    "FullName": "с. Преображеновка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141531,
+    "Category": 2,
+    "Name": "Приамурский",
+    "FullName": "пос. Приамурский",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142758,
+    "Category": 1,
+    "Name": "Пронькино",
+    "FullName": "с. Пронькино",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142759,
+    "Category": 1,
+    "Name": "Птичник",
+    "FullName": "с. Птичник",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143004,
+    "Category": 1,
+    "Name": "Пузино",
+    "FullName": "с. Пузино",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142984,
+    "Category": 1,
+    "Name": "Радде",
+    "FullName": "с. Радде",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142760,
+    "Category": 1,
+    "Name": "Раздольное",
+    "FullName": "с. Раздольное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142985,
+    "Category": 1,
+    "Name": "Рудное",
+    "FullName": "с. Рудное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142761,
+    "Category": 1,
+    "Name": "Русская Поляна",
+    "FullName": "с. Русская Поляна",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143005,
+    "Category": 1,
+    "Name": "Ручейки",
+    "FullName": "с. Ручейки",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143006,
+    "Category": 1,
+    "Name": "Садовое",
+    "FullName": "с. Садовое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143007,
+    "Category": 1,
+    "Name": "Самара",
+    "FullName": "с. Самара",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142986,
+    "Category": 1,
+    "Name": "Семисточный",
+    "FullName": "с. Семисточный",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143009,
+    "Category": 5,
+    "Name": "Смидович",
+    "FullName": "пгт. Смидович",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142995,
+    "Category": 1,
+    "Name": "Снарский",
+    "FullName": "с. Снарский",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142987,
+    "Category": 1,
+    "Name": "Соловьевка",
+    "FullName": "с. Соловьевка",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141532,
+    "Category": 1,
+    "Name": "Соцгородок",
+    "FullName": "с. Соцгородок",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 163541,
+    "Category": 1,
+    "Name": "Союзное",
+    "FullName": "с. Союзное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142966,
+    "Category": 1,
+    "Name": "Степное",
+    "FullName": "с. Степное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 143008,
+    "Category": 1,
+    "Name": "Столбовое",
+    "FullName": "с. Столбовое",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142988,
+    "Category": 1,
+    "Name": "Сутара",
+    "FullName": "с. Сутара",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142989,
+    "Category": 2,
+    "Name": "Теплоозерск",
+    "FullName": "пос. Теплоозерск",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 163539,
+    "Category": 1,
+    "Name": "Теплые Ключи",
+    "FullName": "с. Теплые Ключи",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142990,
+    "Category": 1,
+    "Name": "Трек",
+    "FullName": "с. Трек",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142991,
+    "Category": 3,
+    "Name": "Ударный",
+    "FullName": "ст. Ударный",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142967,
+    "Category": 1,
+    "Name": "Унгун",
+    "FullName": "с. Унгун",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 214834,
+    "Category": 4,
+    "Name": "Урми",
+    "FullName": "рзд. Урми",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 141535,
+    "Category": 1,
+    "Name": "Усов Балаган",
+    "FullName": "с. Усов Балаган",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142992,
+    "Category": 2,
+    "Name": "Хинганск",
+    "FullName": "пос. Хинганск",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142968,
+    "Category": 1,
+    "Name": "Целинное",
+    "FullName": "с. Целинное",
+    "Settlement": null,
+    "Populations": []
+  },
+  {
+    "Id": 142969,
+    "Category": 1,
+    "Name": "Чурки",
+    "FullName": "с. Чурки",
+    "Settlement": null,
+    "Populations": []
+  }
+]

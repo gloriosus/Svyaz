@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Svyaz.Model.AccessPointInfo">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAQAAAAQxAAAAAQAAAAAAAAAECAA=</HashCode>
+      <FileName>Model\AccessPointInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.BaseOperatorInfo">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAgEgAEIAAgAAAAAAIAAAAAAAIAAAAA=</HashCode>
+      <FileName>Model\BaseOperatorInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Svyaz.Model.ChanelCountInfo">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAQxAAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Model\ChanelCountInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.ChanelCountInfo2">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAxAAAAAQAAAAAAAAEFAAg=</HashCode>
+      <FileName>Model\ChanelCountInfo2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.CountInfo">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAQxAAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Model\CountInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.OperatorInfo">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEgAABAAAxAAAAAYAAAAAAAAAEAAA=</HashCode>
+      <FileName>Model\OperatorInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.TransferDataInfo">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAEAAAAEAQAAAAAxAAAAAQAAAAAAAAAECAA=</HashCode>
+      <FileName>Model\TransferDataInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.LicensedActivity">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEgAAAAAQAAAAAAIAAAAAAgQAAAAA=</HashCode>
+      <FileName>Model\LicensedActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Svyaz.Model.Corporation">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAEgAAAAAAQAAAEAIAAAAAAAIAAIAA=</HashCode>
+      <FileName>Model\Сorporation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Svyaz.Model.GsmInfo">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAxAACAAQAAAAAAAAAEAEA=</HashCode>
+      <FileName>Model\GsmInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Svyaz.Model.OperatorActivity" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\OperatorActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

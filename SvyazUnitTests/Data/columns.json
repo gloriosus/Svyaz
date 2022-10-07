@@ -1,0 +1,972 @@
+[
+  {
+    "ParentID": -1,
+    "ID": -1,
+    "Name": "Район",
+    "Property": "Borrough",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -2,
+    "ID": -2,
+    "Name": "Поселение",
+    "Property": "Settlement",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -3,
+    "ID": -3,
+    "Name": "Населенный пункт",
+    "Property": "FullName",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -4,
+    "ID": -4,
+    "Name": "Адм центр",
+    "Property": "IsAdmCenter",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -5,
+    "ID": -5,
+    "Name": "Жителей",
+    "Property": "CurrentPopulationCount",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 0,
+    "ID": 1,
+    "Name": "Телефонная связь и услуги передачи данных",
+    "Property": "PhoneOn,PayphoneCount,IntraZonePhoneOn,LongDistancePhoneOn,DataTransferOn,TelematicServiceOn",
+    "ImageIndex": 0,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 2,
+    "Name": "Местная телеф. связь",
+    "Property": "PhoneOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 2,
+    "ID": 46,
+    "Name": "Операторы",
+    "Property": "PhoneOnDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 3,
+    "Name": "Количество таксофонов",
+    "Property": "PayphoneCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 4,
+    "Name": "Внутризоновая телеф. связь",
+    "Property": "IntraZonePhoneOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 4,
+    "ID": 48,
+    "Name": "Операторы",
+    "Property": "IntraZonePhoneDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 5,
+    "Name": "Междугородняя и международная связь",
+    "Property": "LongDistancePhoneOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 5,
+    "ID": 49,
+    "Name": "Операторы",
+    "Property": "LongDistancePhoneDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 6,
+    "Name": "Услуги передачи данных",
+    "Property": "DataTransferOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 6,
+    "ID": 50,
+    "Name": "Операторы",
+    "Property": "TransferDataDetails",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 1,
+    "ID": 7,
+    "Name": "Телематические услуги связи",
+    "Property": "TelematicServiceOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 7,
+    "ID": 61,
+    "Name": "Операторы",
+    "Property": "TelematicServiceDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 0,
+    "ID": 8,
+    "Name": "Сотовая связь и мобильный интернет",
+    "Property": "GsmOn,UmtsOn,LteOn,NmtOn,CdmaOn",
+    "ImageIndex": 0,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 8,
+    "ID": 9,
+    "Name": "GSM (2G)",
+    "Property": "GsmOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 9,
+    "ID": 51,
+    "Name": "Операторы",
+    "Property": "GsmDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 8,
+    "ID": 10,
+    "Name": "UMTS (3G)",
+    "Property": "UmtsOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 10,
+    "ID": 52,
+    "Name": "Операторы",
+    "Property": "UmtsDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 8,
+    "ID": 11,
+    "Name": "LTE (4G)",
+    "Property": "LteOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 11,
+    "ID": 53,
+    "Name": "Операторы",
+    "Property": "LteDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 8,
+    "ID": 12,
+    "Name": "NMT-450",
+    "Property": "NmtOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 8,
+    "ID": 13,
+    "Name": "IMT-MC-450(CDMA)",
+    "Property": "CdmaOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 0,
+    "ID": 14,
+    "Name": "Телевидение и радиовещание",
+    "Property": "TvOn,DigitalChanelCount,AnalogChanelCount,BroadcastingOn,DigitalChanelCount2,AnalogChanelCount2,CabelChanelCount",
+    "ImageIndex": 0,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 15,
+    "Name": "Эфирное телевидение",
+    "Property": "TvOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 15,
+    "ID": 54,
+    "Name": "Операторы",
+    "Property": "EtvChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 16,
+    "Name": "Кол. цифровых телеканалов",
+    "Property": "DigitalChanelCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 16,
+    "ID": 55,
+    "Name": "Операторы",
+    "Property": "EtvDigitalChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 17,
+    "Name": "Кол. аналоговых телеканалов",
+    "Property": "AnalogChanelCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 17,
+    "ID": 56,
+    "Name": "Операторы",
+    "Property": "EtvAnalogChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 18,
+    "Name": "Радиовещание",
+    "Property": "BroadcastingOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 18,
+    "ID": 57,
+    "Name": "Операторы",
+    "Property": "RvChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 19,
+    "Name": "Кол. цифровых радиоканалов",
+    "Property": "DigitalChanelCount2",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 19,
+    "ID": 58,
+    "Name": "Операторы",
+    "Property": "RvDigitalChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 20,
+    "Name": "Кол. аналоговых радиоканалов",
+    "Property": "AnalogChanelCount2",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 20,
+    "ID": 59,
+    "Name": "Операторы",
+    "Property": "RvAnalogChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 14,
+    "ID": 21,
+    "Name": "Кол. каналов кабельного ТВ",
+    "Property": "CabelChanelCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 21,
+    "ID": 60,
+    "Name": "Операторы",
+    "Property": "CableChanelDetail",
+    "ImageIndex": 7,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 0,
+    "ID": 22,
+    "Name": "Услги почтовой связи",
+    "Property": "PostOn,PostCount,PostOfficeCount,PayphoneCount2",
+    "ImageIndex": 0,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 22,
+    "ID": 23,
+    "Name": "Почтовая связь",
+    "Property": "PostOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 22,
+    "ID": 24,
+    "Name": "Количество почтамптов",
+    "Property": "PostCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 22,
+    "ID": 25,
+    "Name": "Количество отделений",
+    "Property": "PostOfficeCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 22,
+    "ID": 26,
+    "Name": "Количество таксофонов",
+    "Property": "PayphoneCount2",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 0,
+    "ID": 27,
+    "Name": "Универсальные услуги связи",
+    "Property": "CapsCount,CapsJobCount,AccessPointOn,AccessPointCount",
+    "ImageIndex": 0,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 27,
+    "ID": 28,
+    "Name": "Количество ПКД (пунктов колл. доступа)",
+    "Property": "CapsCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 27,
+    "ID": 29,
+    "Name": "Количество рабочих мест в ПКД",
+    "Property": "CapsJobCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 27,
+    "ID": 30,
+    "Name": "Точки доступа",
+    "Property": "AccessPointOn",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": 27,
+    "ID": 31,
+    "Name": "Количество точек доступа",
+    "Property": "AccessPointCount",
+    "ImageIndex": 1,
+    "IsTreeColumn": true,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -6,
+    "Name": "ПАО \"Ростелеком\"",
+    "Property": "Ph_ПАО \"Ростелеком\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -7,
+    "Name": "ОАО Российские железные дороги",
+    "Property": "Ph_ОАО Российские железные дороги",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -8,
+    "Name": "ОАО \"Связьтранснефть\"",
+    "Property": "Ph_ОАО \"Связьтранснефть\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -9,
+    "Name": "ООО Престиж-Интернет",
+    "Property": "Ph_ООО Престиж-Интернет",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -10,
+    "Name": "ПАО Мегафон",
+    "Property": "Ph_ПАО Мегафон",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -11,
+    "Name": "ПАО Ростелеком",
+    "Property": "Ph_ПАО Ростелеком",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -12,
+    "Name": "ОАО \"Ростелеком\"",
+    "Property": "Ph_ОАО \"Ростелеком\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -13,
+    "Name": "ОАО \"Российские железные дороги\"",
+    "Property": "Ph_ОАО \"Российские железные дороги\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -14,
+    "Name": "ОАО «Связьтранснефть» ",
+    "Property": "Ph_ОАО «Связьтранснефть» ",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -15,
+    "Name": "ПАО \"Мегафон\"",
+    "Property": "Ph_ПАО \"Мегафон\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -16,
+    "Name": "ПАО \"Ростелеком\"",
+    "Property": "td_ПАО \"Ростелеком\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -17,
+    "Name": "ООО Эквант",
+    "Property": "td_ООО Эквант",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -18,
+    "Name": "ПАО Вымпел-Коммуникации",
+    "Property": "td_ПАО Вымпел-Коммуникации",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -19,
+    "Name": "ПАО Мегафон",
+    "Property": "td_ПАО Мегафон",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -20,
+    "Name": "ПАО Мобильные ТелеСистемы",
+    "Property": "td_ПАО Мобильные ТелеСистемы",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -21,
+    "Name": "ФГУП \"РТРС\"",
+    "Property": "td_ФГУП \"РТРС\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -22,
+    "Name": "ЗАО Синтерра",
+    "Property": "td_ЗАО Синтерра",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -23,
+    "Name": "ЗАО \"Компания ТрансТелеКом\"",
+    "Property": "td_ЗАО \"Компания ТрансТелеКом\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -24,
+    "Name": "ОАО РТКомм.РУ",
+    "Property": "td_ОАО РТКомм.РУ",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -25,
+    "Name": "ООО Престиж-Интернет",
+    "Property": "td_ООО Престиж-Интернет",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -26,
+    "Name": "ПАО Ростелеком",
+    "Property": "td_ПАО Ростелеком",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -27,
+    "Name": "ФГУП РТРС",
+    "Property": "td_ФГУП РТРС",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -28,
+    "Name": "ЗАО \"Синтерра\"",
+    "Property": "td_ЗАО \"Синтерра\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -29,
+    "Name": "ОАО \"Ростелеком\"",
+    "Property": "td_ОАО \"Ростелеком\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -30,
+    "Name": "ОАО Мегафон",
+    "Property": "td_ОАО Мегафон",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -31,
+    "Name": "ОАО Мобильные ТелеСистемы",
+    "Property": "td_ОАО Мобильные ТелеСистемы",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -32,
+    "Name": "АО \"Компания ТрансТелеком\"",
+    "Property": "td_АО \"Компания ТрансТелеком\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -33,
+    "Name": "ПАО \"Мегафон\"",
+    "Property": "td_ПАО \"Мегафон\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -34,
+    "Name": "АО Компания ТрансТелеКом",
+    "Property": "td_АО Компания ТрансТелеКом",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -35,
+    "Name": "ФГУП \"Почта России\"",
+    "Property": "td_ФГУП \"Почта России\"",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -36,
+    "Name": "ФГУП Почта России",
+    "Property": "td_ФГУП Почта России",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -37,
+    "Name": "Билайн",
+    "Property": "gsm_Билайн",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -38,
+    "Name": "Т2",
+    "Property": "gsm_Т2",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -39,
+    "Name": "Мегафон",
+    "Property": "gsm_Мегафон",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -40,
+    "Name": "МТС",
+    "Property": "gsm_МТС",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -41,
+    "Name": "Ростелеком",
+    "Property": "td_Ростелеком",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -42,
+    "Name": "Эквант",
+    "Property": "td_Эквант",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -43,
+    "Name": "Билайн",
+    "Property": "td_Билайн",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -44,
+    "Name": "Мегафон",
+    "Property": "td_Мегафон",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -45,
+    "Name": "МТС",
+    "Property": "td_МТС",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -46,
+    "Name": "Почта России",
+    "Property": "td_Почта России",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -47,
+    "Name": "РТРС",
+    "Property": "td_РТРС",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -48,
+    "Name": "Синтерра",
+    "Property": "td_Синтерра",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -49,
+    "Name": "ТрансТелеком",
+    "Property": "td_ТрансТелеком",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -50,
+    "Name": "РТКомм.РУ",
+    "Property": "td_РТКомм.РУ",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  },
+  {
+    "ParentID": -1,
+    "ID": -51,
+    "Name": "Престиж-Интернет",
+    "Property": "td_Престиж-Интернет",
+    "ImageIndex": -1,
+    "IsTreeColumn": false,
+    "VisibleIndex": 0,
+    "GridColumnWidth": 100
+  }
+]

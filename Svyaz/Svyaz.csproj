@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{542F36BD-3904-4419-A060-F00A27142F2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Svyaz</RootNamespace>
+    <AssemblyName>Svyaz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>stock_data-explorer_7833.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Docs.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Map.v16.2.Core, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v16.2, Version=16.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.6\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorroughtsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BorroughtsCtrl.Designer.cs">
+      <DependentUpon>BorroughtsCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateBackupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateBackupForm.Designer.cs">
+      <DependentUpon>CreateBackupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomEditors\DataRateEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomEditors\DataRateEditor.Designer.cs">
+      <DependentUpon>DataRateEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CoporationConverter.cs" />
+    <Compile Include="IReloadData.cs" />
+    <Compile Include="LocalitiesBaseViewCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LocalitiesBaseViewCtrl.Designer.cs">
+      <DependentUpon>LocalitiesBaseViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MapCtrl.Designer.cs">
+      <DependentUpon>MapCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\IBaseOperator.cs" />
+    <Compile Include="Model\ICorp.cs" />
+    <Compile Include="Model\IDataSrc.cs" />
+    <Compile Include="Model\OperatorActivity.cs" />
+    <Compile Include="Model\PivotHeader.cs" />
+    <Compile Include="OperatorsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OperatorsCtrl.Designer.cs">
+      <DependentUpon>OperatorsCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnSelectorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColumnSelectorCtrl.Designer.cs">
+      <DependentUpon>ColumnSelectorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComSrvCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComSrvCtrl.Designer.cs">
+      <DependentUpon>ComSrvCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Repository.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicActivitiesCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LicActivitiesCtrl.Designer.cs">
+      <DependentUpon>LicActivitiesCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalitiesCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LocalitiesCtrl.Designer.cs">
+      <DependentUpon>LocalitiesCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalitiesViewCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LocalitiesViewCtrl.Designer.cs">
+      <DependentUpon>LocalitiesViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalityEditForm.Designer.cs">
+      <DependentUpon>LocalityEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AccessPointInfo.cs" />
+    <Compile Include="Model\BaseOperatorInfo.cs" />
+    <Compile Include="Model\BoolData.cs" />
+    <Compile Include="Model\Borrough.cs" />
+    <Compile Include="Model\ChanelCountInfo.cs" />
+    <Compile Include="Model\ChanelCountInfo2.cs" />
+    <Compile Include="Model\ColumnInfo.cs" />
+    <Compile Include="Model\CommunicationService.cs" />
+    <Compile Include="Model\CountInfo.cs" />
+    <Compile Include="Model\DataRate.cs" />
+    <Compile Include="Model\GsmData.cs" />
+    <Compile Include="Model\GsmInfo.cs" />
+    <Compile Include="Model\IntData.cs" />
+    <Compile Include="Model\LicensedActivity.cs" />
+    <Compile Include="Model\Locality.cs" />
+    <Compile Include="Model\OperatorInfo.cs" />
+    <Compile Include="Model\Population.cs" />
+    <Compile Include="Model\Row2Columns.cs" />
+    <Compile Include="Model\Row3Columns.cs" />
+    <Compile Include="Model\Settlement.cs" />
+    <Compile Include="Model\TransferData.cs" />
+    <Compile Include="Model\TransferDataInfo.cs" />
+    <Compile Include="Model\Сorporation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestoreBackupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreBackupForm.Designer.cs">
+      <DependentUpon>RestoreBackupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsCtrl.Designer.cs">
+      <DependentUpon>SettingsCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettlermentsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettlermentsCtrl.Designer.cs">
+      <DependentUpon>SettlermentsCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web\HttpTools.cs" />
+    <Compile Include="Web\Parser.cs" />
+    <Compile Include="Web\Tools.cs" />
+    <EmbeddedResource Include="BorroughtsCtrl.resx">
+      <DependentUpon>BorroughtsCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateBackupForm.resx">
+      <DependentUpon>CreateBackupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditors\DataRateEditor.resx">
+      <DependentUpon>DataRateEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalitiesBaseViewCtrl.resx">
+      <DependentUpon>LocalitiesBaseViewCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapCtrl.resx">
+      <DependentUpon>MapCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorsCtrl.resx">
+      <DependentUpon>OperatorsCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnSelectorCtrl.resx">
+      <DependentUpon>ColumnSelectorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComSrvCtrl.resx">
+      <DependentUpon>ComSrvCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicActivitiesCtrl.resx">
+      <DependentUpon>LicActivitiesCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalitiesCtrl.resx">
+      <DependentUpon>LocalitiesCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalitiesViewCtrl.resx">
+      <DependentUpon>LocalitiesViewCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalityEditForm.resx">
+      <DependentUpon>LocalityEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RestoreBackupForm.resx">
+      <DependentUpon>RestoreBackupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsCtrl.resx">
+      <DependentUpon>SettingsCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettlermentsCtrl.resx">
+      <DependentUpon>SettlermentsCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Data\borroughts.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\licActivities.json" />
+    <None Include="Data\localities.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\settlements.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\ВымпелКом.kml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\МегаФон.kml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\МТС.kml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stock_data-explorer_7833.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

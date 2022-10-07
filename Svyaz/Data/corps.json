@@ -1,0 +1,1396 @@
+[
+  {
+    "ID": 0,
+    "CorporateName": "ОАО \"Связьтранснефть\"",
+    "Operator": {
+      "OperatorName": "Связьтранснефть",
+      "DefaultName": "Связьтранснефть",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Российские железные дороги",
+    "Operator": {
+      "OperatorName": "РЖД",
+      "DefaultName": "Российские железные дороги",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Престиж-Интернет",
+    "Operator": {
+      "OperatorName": "Престиж-Интернет",
+      "DefaultName": "Престиж-Интернет",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО Мегафон",
+    "Operator": {
+      "OperatorName": "Мегафон",
+      "DefaultName": "Мегафон",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 4,
+        "Name": "Внутризоновая телеф. связь",
+        "Property": "IntraZonePhoneOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 11,
+        "Name": "LTE (4G)",
+        "Property": "LteOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО Ростелеком",
+    "Operator": {
+      "OperatorName": "Ростелеком",
+      "DefaultName": "Ростелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 4,
+        "Name": "Внутризоновая телеф. связь",
+        "Property": "IntraZonePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 3,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount"
+      },
+      {
+        "ParentID": 22,
+        "ID": 26,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount2"
+      },
+      {
+        "ParentID": 27,
+        "ID": 28,
+        "Name": "Количество ПКД (пунктов колл. доступа)",
+        "Property": "CapsCount"
+      },
+      {
+        "ParentID": 27,
+        "ID": 29,
+        "Name": "Количество рабочих мест в ПКД",
+        "Property": "CapsJobCount"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 21,
+        "Name": "Кол. каналов кабельного ТВ",
+        "Property": "CabelChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ЗАО \"Компания ТрансТелеКом\"",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ЗАО Синтерра",
+    "Operator": {
+      "OperatorName": "Синтерра",
+      "DefaultName": "Синтерра",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО \"Межрегиональный Транзит Телеком\"",
+    "Operator": {
+      "OperatorName": "Межрегиональный Транзит Телеком",
+      "DefaultName": "Межрегиональный Транзит Телеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Эквант",
+    "Operator": {
+      "OperatorName": "Эквант",
+      "DefaultName": "Эквант",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО Вымпел-Коммуникации",
+    "Operator": {
+      "OperatorName": "Билайн",
+      "DefaultName": "Вымпел-Коммуникации",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО Мобильные ТелеСистемы",
+    "Operator": {
+      "OperatorName": "МТС",
+      "DefaultName": "Мобильные ТелеСистемы",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 11,
+        "Name": "LTE (4G)",
+        "Property": "LteOn"
+      },
+      {
+        "ParentID": 22,
+        "ID": 26,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount2"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО РТКомм.РУ",
+    "Operator": {
+      "OperatorName": "РТКомм.РУ",
+      "DefaultName": "РТКомм.РУ",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ФГУП РТРС",
+    "Operator": {
+      "OperatorName": "РТРС",
+      "DefaultName": "РТРС",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 15,
+        "Name": "Эфирное телевидение",
+        "Property": "TvOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 16,
+        "Name": "Кол. цифровых телеканалов",
+        "Property": "DigitalChanelCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 17,
+        "Name": "Кол. аналоговых телеканалов",
+        "Property": "AnalogChanelCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 19,
+        "Name": "Кол. цифровых радиоканалов",
+        "Property": "DigitalChanelCount2"
+      },
+      {
+        "ParentID": 14,
+        "ID": 20,
+        "Name": "Кол. аналоговых радиоканалов",
+        "Property": "AnalogChanelCount2"
+      },
+      {
+        "ParentID": 14,
+        "ID": 21,
+        "Name": "Кол. каналов кабельного ТВ",
+        "Property": "CabelChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ФГУП Почта России",
+    "Operator": {
+      "OperatorName": "Почта России",
+      "DefaultName": "Почта России",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 22,
+        "ID": 23,
+        "Name": "Почтовая связь",
+        "Property": "PostOn"
+      },
+      {
+        "ParentID": 22,
+        "ID": 25,
+        "Name": "Количество отделений",
+        "Property": "PostOfficeCount"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Т2 Мобайл",
+    "Operator": {
+      "OperatorName": "Т2",
+      "DefaultName": "Т2 Мобайл",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 11,
+        "Name": "LTE (4G)",
+        "Property": "LteOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО \"Скартел\"",
+    "Operator": {
+      "OperatorName": "Скартел",
+      "DefaultName": "Скартел",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 8,
+        "ID": 11,
+        "Name": "LTE (4G)",
+        "Property": "LteOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Студия вещания Бествидео",
+    "Operator": {
+      "OperatorName": "Бествидео",
+      "DefaultName": "Студия вещания Бествидео",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 15,
+        "Name": "Эфирное телевидение",
+        "Property": "TvOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 17,
+        "Name": "Кол. аналоговых телеканалов",
+        "Property": "AnalogChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Стратегия плюс",
+    "Operator": {
+      "OperatorName": "Стратегия плюс",
+      "DefaultName": "Стратегия плюс",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 15,
+        "Name": "Эфирное телевидение",
+        "Property": "TvOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 17,
+        "Name": "Кол. аналоговых телеканалов",
+        "Property": "AnalogChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Альфа плюс",
+    "Operator": {
+      "OperatorName": "Альфа плюс",
+      "DefaultName": "Альфа плюс",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 20,
+        "Name": "Кол. аналоговых радиоканалов",
+        "Property": "AnalogChanelCount2"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Технорад",
+    "Operator": {
+      "OperatorName": "Технорад",
+      "DefaultName": "Технорад",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 20,
+        "Name": "Кол. аналоговых радиоканалов",
+        "Property": "AnalogChanelCount2"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО \"Ростелеком\"",
+    "Operator": {
+      "OperatorName": "Ростелеком",
+      "DefaultName": "Ростелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 4,
+        "Name": "Внутризоновая телеф. связь",
+        "Property": "IntraZonePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 22,
+        "ID": 26,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount2"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 27,
+        "ID": 31,
+        "Name": "Количество точек доступа",
+        "Property": "AccessPointCount"
+      },
+      {
+        "ParentID": 27,
+        "ID": 28,
+        "Name": "Количество ПКД (пунктов колл. доступа)",
+        "Property": "CapsCount"
+      },
+      {
+        "ParentID": 27,
+        "ID": 29,
+        "Name": "Количество рабочих мест в ПКД",
+        "Property": "CapsJobCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 21,
+        "Name": "Кол. каналов кабельного ТВ",
+        "Property": "CabelChanelCount"
+      },
+      {
+        "ParentID": 1,
+        "ID": 3,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 20,
+        "Name": "Кол. аналоговых радиоканалов",
+        "Property": "AnalogChanelCount2"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "АО Компания ТрансТелеКом",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Межрегиональный ТранзитТелеком",
+    "Operator": {
+      "OperatorName": "Межрегиональный Транзит Телеком",
+      "DefaultName": "Межрегиональный Транзит Телеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ФГУП \"Почта России\"",
+    "Operator": {
+      "OperatorName": "Почта России",
+      "DefaultName": "Почта России",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 22,
+        "ID": 23,
+        "Name": "Почтовая связь",
+        "Property": "PostOn"
+      },
+      {
+        "ParentID": 22,
+        "ID": 25,
+        "Name": "Количество отделений",
+        "Property": "PostOfficeCount"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 27,
+        "ID": 28,
+        "Name": "Количество ПКД (пунктов колл. доступа)",
+        "Property": "CapsCount"
+      },
+      {
+        "ParentID": 27,
+        "ID": 29,
+        "Name": "Количество рабочих мест в ПКД",
+        "Property": "CapsJobCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ФГУП \"РТРС\"",
+    "Operator": {
+      "OperatorName": "РТРС",
+      "DefaultName": "РТРС",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 15,
+        "Name": "Эфирное телевидение",
+        "Property": "TvOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 16,
+        "Name": "Кол. цифровых телеканалов",
+        "Property": "DigitalChanelCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 17,
+        "Name": "Кол. аналоговых телеканалов",
+        "Property": "AnalogChanelCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 20,
+        "Name": "Кол. аналоговых радиоканалов",
+        "Property": "AnalogChanelCount2"
+      },
+      {
+        "ParentID": 14,
+        "ID": 19,
+        "Name": "Кол. цифровых радиоканалов",
+        "Property": "DigitalChanelCount2"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Межрегиональный ТоанзитТелеком",
+    "Operator": {
+      "OperatorName": "Межрегиональный Транзит Телеком",
+      "DefaultName": "Межрегиональный Транзит Телеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ЗАО Компания ТрансТелеКом",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО \"Мегафон\"",
+    "Operator": {
+      "OperatorName": "Мегафон",
+      "DefaultName": "Мегафон",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 4,
+        "Name": "Внутризоновая телеф. связь",
+        "Property": "IntraZonePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО \"Ростелеком\"",
+    "Operator": {
+      "OperatorName": "Ростелеком",
+      "DefaultName": "Ростелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 3,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount"
+      },
+      {
+        "ParentID": 22,
+        "ID": 26,
+        "Name": "Количество таксофонов",
+        "Property": "PayphoneCount2"
+      },
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 4,
+        "Name": "Внутризоновая телеф. связь",
+        "Property": "IntraZonePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "АО \"Компания ТрансТелеком\"",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ЗАО \"Синтерра\"",
+    "Operator": {
+      "OperatorName": "Синтерра",
+      "DefaultName": "Синтерра",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО \"Эквант\"",
+    "Operator": {
+      "OperatorName": "Эквант",
+      "DefaultName": "Эквант",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ООО Т2 Мобайл ",
+    "Operator": {
+      "OperatorName": "Т2",
+      "DefaultName": "Т2 Мобайл",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ЗАО \"Компания ТрансТелеком\"",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Вымпел-Коммуникации",
+    "Operator": {
+      "OperatorName": "Билайн",
+      "DefaultName": "Вымпел-Коммуникации",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Мобильные ТелеСистемы",
+    "Operator": {
+      "OperatorName": "МТС",
+      "DefaultName": "Мобильные ТелеСистемы",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Мегафон",
+    "Operator": {
+      "OperatorName": "Мегафон",
+      "DefaultName": "Мегафон",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 8,
+        "ID": 10,
+        "Name": "UMTS (3G)",
+        "Property": "UmtsOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 6,
+        "Name": "Услуги передачи данных",
+        "Property": "DataTransferOn"
+      },
+      {
+        "ParentID": 1,
+        "ID": 7,
+        "Name": "Телематические услуги связи",
+        "Property": "TelematicServiceOn"
+      },
+      {
+        "ParentID": 8,
+        "ID": 9,
+        "Name": "GSM (2G)",
+        "Property": "GsmOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО \"Российские железные дороги\"",
+    "Operator": {
+      "OperatorName": "РЖД",
+      "DefaultName": "Российские железные дороги",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО «Связьтранснефть» ",
+    "Operator": {
+      "OperatorName": "Связьтранснефть",
+      "DefaultName": "Связьтранснефть",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 2,
+        "Name": "Местная телеф. связь",
+        "Property": "PhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ИП Самарин Ю.Н.",
+    "Operator": {
+      "OperatorName": "Самарин Ю.Н.",
+      "DefaultName": "Самарин Ю.Н.",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 21,
+        "Name": "Кол. каналов кабельного ТВ",
+        "Property": "CabelChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ОАО Межрегиональный Транзит Телеком",
+    "Operator": {
+      "OperatorName": "Межрегиональный Транзит Телеком",
+      "DefaultName": "Межрегиональный Транзит Телеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ИП Байдина",
+    "Operator": {
+      "OperatorName": "Байдина",
+      "DefaultName": "Байдина",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 21,
+        "Name": "Кол. каналов кабельного ТВ",
+        "Property": "CabelChanelCount"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ПАО Межрегиональный ТранзитТелеком",
+    "Operator": {
+      "OperatorName": "Межрегиональный Транзит Телеком",
+      "DefaultName": "Межрегиональный Транзит Телеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "АО Компания ТрансТелеком",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "АО КомпанияТрансТелеКом",
+    "Operator": {
+      "OperatorName": "ТрансТелеком",
+      "DefaultName": "Компания ТрансТелеком",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 1,
+        "ID": 5,
+        "Name": "Междугородняя и международная связь",
+        "Property": "LongDistancePhoneOn"
+      }
+    ]
+  },
+  {
+    "ID": 0,
+    "CorporateName": "ФГУП РТРС ",
+    "Operator": {
+      "OperatorName": "РТРС",
+      "DefaultName": "РТРС",
+      "Activities": []
+    },
+    "Activities": [
+      {
+        "ParentID": 14,
+        "ID": 15,
+        "Name": "Эфирное телевидение",
+        "Property": "TvOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 18,
+        "Name": "Радиовещание",
+        "Property": "BroadcastingOn"
+      },
+      {
+        "ParentID": 14,
+        "ID": 16,
+        "Name": "Кол. цифровых телеканалов",
+        "Property": "DigitalChanelCount"
+      },
+      {
+        "ParentID": 14,
+        "ID": 19,
+        "Name": "Кол. цифровых радиоканалов",
+        "Property": "DigitalChanelCount2"
+      }
+    ]
+  }
+]

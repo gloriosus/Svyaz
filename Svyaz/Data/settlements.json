@@ -1,0 +1,407 @@
+[
+  {
+    "Id": 1,
+    "Name": "Бирофельдское сельское поселение",
+    "Category": 1,
+    "CenterId": 142746,
+    "Center": {
+      "Id": 142746,
+      "Category": 1,
+      "Name": "Бирофельд",
+      "FullName": "с. Бирофельд",
+      "SettlementId": 1,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Валдгеймское сельское поселение",
+    "Category": 1,
+    "CenterId": 142747,
+    "Center": {
+      "Id": 142747,
+      "Category": 1,
+      "Name": "Валдгейм",
+      "FullName": "с. Валдгейм",
+      "SettlementId": 2,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Надежденское сельское поселение",
+    "Category": 1,
+    "CenterId": 142755,
+    "Center": {
+      "Id": 142755,
+      "Category": 1,
+      "Name": "Надеждинское",
+      "FullName": "с. Надеждинское",
+      "SettlementId": 3,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Дубовское сельское поселение",
+    "Category": 1,
+    "CenterId": 142750,
+    "Center": {
+      "Id": 142750,
+      "Category": 1,
+      "Name": "Дубовое",
+      "FullName": "с. Дубовое",
+      "SettlementId": 4,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Найфельдское сельское поселение",
+    "Category": 1,
+    "CenterId": 142756,
+    "Center": {
+      "Id": 142756,
+      "Category": 1,
+      "Name": "Найфельд",
+      "FullName": "с. Найфельд",
+      "SettlementId": 5,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "Птичнинское сельское поселение",
+    "Category": 1,
+    "CenterId": 142759,
+    "Center": {
+      "Id": 142759,
+      "Category": 1,
+      "Name": "Птичник",
+      "FullName": "с. Птичник",
+      "SettlementId": 6,
+      "Populations": []
+    },
+    "BorroughId": 1
+  },
+  {
+    "Id": 7,
+    "Name": "Бабстовское сельское поселение",
+    "Category": 1,
+    "CenterId": 160436,
+    "Center": {
+      "Id": 160436,
+      "Category": 1,
+      "Name": "Бабстово",
+      "FullName": "с. Бабстово",
+      "SettlementId": 7,
+      "Populations": []
+    },
+    "BorroughId": 4
+  },
+  {
+    "Id": 8,
+    "Name": "Биджанское сельское поселение",
+    "Category": 1,
+    "CenterId": 142953,
+    "Center": {
+      "Id": 142953,
+      "Category": 1,
+      "Name": "Биджан",
+      "FullName": "с. Биджан",
+      "SettlementId": 8,
+      "Populations": []
+    },
+    "BorroughId": 4
+  },
+  {
+    "Id": 9,
+    "Name": "Дежневское сельское поселение",
+    "Category": 1,
+    "CenterId": 142957,
+    "Center": {
+      "Id": 142957,
+      "Category": 1,
+      "Name": "Дежнево",
+      "FullName": "с. Дежнево",
+      "SettlementId": 9,
+      "Populations": []
+    },
+    "BorroughId": 4
+  },
+  {
+    "Id": 10,
+    "Name": "Лазаревское сельское поселениее",
+    "Category": 1,
+    "CenterId": 142962,
+    "Center": {
+      "Id": 142962,
+      "Category": 1,
+      "Name": "Лазарево",
+      "FullName": "с. Лазарево",
+      "SettlementId": 10,
+      "Populations": []
+    },
+    "BorroughId": 4
+  },
+  {
+    "Id": 11,
+    "Name": "Ленинское сельское поселение",
+    "Category": 1,
+    "CenterId": 142951,
+    "Center": {
+      "Id": 142951,
+      "Category": 1,
+      "Name": "Ленинское",
+      "FullName": "с. Ленинское",
+      "SettlementId": 11,
+      "Populations": []
+    },
+    "BorroughId": 4
+  },
+  {
+    "Id": 12,
+    "Name": "Облученское городское поселение    ",
+    "Category": 0,
+    "CenterId": 6079,
+    "Center": {
+      "Id": 6079,
+      "Category": 0,
+      "Name": "Облучье",
+      "FullName": "г. Облучье",
+      "SettlementId": 12,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 13,
+    "Name": "Бирское городское поселение",
+    "Category": 0,
+    "CenterId": 142974,
+    "Center": {
+      "Id": 142974,
+      "Category": 2,
+      "Name": "Бира",
+      "FullName": "пос. Бира",
+      "SettlementId": 13,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 14,
+    "Name": "Бираканское городское поселение",
+    "Category": 0,
+    "CenterId": 142975,
+    "Center": {
+      "Id": 142975,
+      "Category": 2,
+      "Name": "Биракан",
+      "FullName": "пос. Биракан",
+      "SettlementId": 14,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 15,
+    "Name": "Известковское городское поселение",
+    "Category": 0,
+    "CenterId": 142979,
+    "Center": {
+      "Id": 142979,
+      "Category": 2,
+      "Name": "Известковый",
+      "FullName": "пос. Известковый",
+      "SettlementId": 15,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 16,
+    "Name": "Кульдурское городское поселение",
+    "Category": 0,
+    "CenterId": 142981,
+    "Center": {
+      "Id": 142981,
+      "Category": 2,
+      "Name": "Кульдур",
+      "FullName": "пос. Кульдур",
+      "SettlementId": 16,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 17,
+    "Name": "Теплоозерское городское поселение",
+    "Category": 0,
+    "CenterId": 142989,
+    "Center": {
+      "Id": 142989,
+      "Category": 2,
+      "Name": "Теплоозерск",
+      "FullName": "пос. Теплоозерск",
+      "SettlementId": 17,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 18,
+    "Name": "Пашковское сельское поселение",
+    "Category": 1,
+    "CenterId": 142983,
+    "Center": {
+      "Id": 142983,
+      "Category": 1,
+      "Name": "Пашково",
+      "FullName": "с. Пашково",
+      "SettlementId": 18,
+      "Populations": []
+    },
+    "BorroughId": 3
+  },
+  {
+    "Id": 19,
+    "Name": "Амурзетское сельское поселение",
+    "Category": 1,
+    "CenterId": 142996,
+    "Center": {
+      "Id": 142996,
+      "Category": 1,
+      "Name": "Амурзет",
+      "FullName": "с. Амурзет",
+      "SettlementId": 19,
+      "Populations": []
+    },
+    "BorroughId": 5
+  },
+  {
+    "Id": 20,
+    "Name": "Нагибовское сельское поселение",
+    "Category": 1,
+    "CenterId": 142997,
+    "Center": {
+      "Id": 142997,
+      "Category": 1,
+      "Name": "Благословенное",
+      "FullName": "с. Благословенное",
+      "SettlementId": 20,
+      "Populations": []
+    },
+    "BorroughId": 5
+  },
+  {
+    "Id": 21,
+    "Name": "Полевское сельское поселение",
+    "Category": 1,
+    "CenterId": 143003,
+    "Center": {
+      "Id": 143003,
+      "Category": 1,
+      "Name": "Полевое",
+      "FullName": "с. Полевое",
+      "SettlementId": 21,
+      "Populations": []
+    },
+    "BorroughId": 5
+  },
+  {
+    "Id": 22,
+    "Name": "Смидовичское городское поселение",
+    "Category": 0,
+    "CenterId": 143009,
+    "Center": {
+      "Id": 143009,
+      "Category": 5,
+      "Name": "Смидович",
+      "FullName": "пгт. Смидович",
+      "SettlementId": 22,
+      "Populations": []
+    },
+    "BorroughId": 2
+  },
+  {
+    "Id": 23,
+    "Name": "Волочаевское городское поселение",
+    "Category": 0,
+    "CenterId": 141520,
+    "Center": {
+      "Id": 141520,
+      "Category": 2,
+      "Name": "Волочаевка-2",
+      "FullName": "пос. Волочаевка-2",
+      "SettlementId": 23,
+      "Populations": []
+    },
+    "BorroughId": 2
+  },
+  {
+    "Id": 24,
+    "Name": "Николаевское городское поселение",
+    "Category": 0,
+    "CenterId": 141526,
+    "Center": {
+      "Id": 141526,
+      "Category": 2,
+      "Name": "Николаевка",
+      "FullName": "пос. Николаевка",
+      "SettlementId": 24,
+      "Populations": []
+    },
+    "BorroughId": 2
+  },
+  {
+    "Id": 25,
+    "Name": "Приамурское городское поселение",
+    "Category": 0,
+    "CenterId": 141531,
+    "Center": {
+      "Id": 141531,
+      "Category": 2,
+      "Name": "Приамурский",
+      "FullName": "пос. Приамурский",
+      "SettlementId": 25,
+      "Populations": []
+    },
+    "BorroughId": 2
+  },
+  {
+    "Id": 26,
+    "Name": "Камышовское сельское поселение",
+    "Category": 1,
+    "CenterId": 141524,
+    "Center": {
+      "Id": 141524,
+      "Category": 1,
+      "Name": "Камышовка",
+      "FullName": "с. Камышовка",
+      "SettlementId": 26,
+      "Populations": []
+    },
+    "BorroughId": 2
+  },
+  {
+    "Id": 27,
+    "Name": "Волочаевское сельское поселение",
+    "Category": 1,
+    "CenterId": 141530,
+    "Center": {
+      "Id": 141530,
+      "Category": 1,
+      "Name": "Партизанское",
+      "FullName": "с. Партизанское",
+      "SettlementId": 27,
+      "Populations": []
+    },
+    "BorroughId": 2
+  }
+]

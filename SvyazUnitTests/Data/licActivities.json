@@ -1,0 +1,188 @@
+[
+  {
+    "ParentID": 0,
+    "ID": 1,
+    "Name": "Телефонная связь и услуги передачи данных",
+    "Property": "PhoneOn,PayphoneCount,IntraZonePhoneOn,LongDistancePhoneOn,DataTransferOn,TelematicServiceOn"
+  },
+  {
+    "ParentID": 1,
+    "ID": 2,
+    "Name": "Местная телеф. связь",
+    "Property": "PhoneOn"
+  },
+  {
+    "ParentID": 1,
+    "ID": 3,
+    "Name": "Количество таксофонов",
+    "Property": "PayphoneCount"
+  },
+  {
+    "ParentID": 1,
+    "ID": 4,
+    "Name": "Внутризоновая телеф. связь",
+    "Property": "IntraZonePhoneOn"
+  },
+  {
+    "ParentID": 1,
+    "ID": 5,
+    "Name": "Междугородняя и международная связь",
+    "Property": "LongDistancePhoneOn"
+  },
+  {
+    "ParentID": 1,
+    "ID": 6,
+    "Name": "Услуги передачи данных",
+    "Property": "DataTransferOn"
+  },
+  {
+    "ParentID": 1,
+    "ID": 7,
+    "Name": "Телематические услуги связи",
+    "Property": "TelematicServiceOn"
+  },
+  {
+    "ParentID": 0,
+    "ID": 8,
+    "Name": "Сотовая связь и мобильный интернет",
+    "Property": "GsmOn,UmtsOn,LteOn,NmtOn,CdmaOn"
+  },
+  {
+    "ParentID": 8,
+    "ID": 9,
+    "Name": "GSM (2G)",
+    "Property": "GsmOn"
+  },
+  {
+    "ParentID": 8,
+    "ID": 10,
+    "Name": "UMTS (3G)",
+    "Property": "UmtsOn"
+  },
+  {
+    "ParentID": 8,
+    "ID": 11,
+    "Name": "LTE (4G)",
+    "Property": "LteOn"
+  },
+  {
+    "ParentID": 8,
+    "ID": 12,
+    "Name": "NMT-450",
+    "Property": "NmtOn"
+  },
+  {
+    "ParentID": 8,
+    "ID": 13,
+    "Name": "IMT-MC-450(CDMA)",
+    "Property": "CdmaOn"
+  },
+  {
+    "ParentID": 0,
+    "ID": 14,
+    "Name": "Телевидение и радиовещание",
+    "Property": "TvOn,DigitalChanelCount,AnalogChanelCount,BroadcastingOn,DigitalChanelCount2,AnalogChanelCount2,CabelChanelCount"
+  },
+  {
+    "ParentID": 14,
+    "ID": 15,
+    "Name": "Эфирное телевидение",
+    "Property": "TvOn"
+  },
+  {
+    "ParentID": 14,
+    "ID": 16,
+    "Name": "Кол. цифровых телеканалов",
+    "Property": "DigitalChanelCount"
+  },
+  {
+    "ParentID": 14,
+    "ID": 17,
+    "Name": "Кол. аналоговых телеканалов",
+    "Property": "AnalogChanelCount"
+  },
+  {
+    "ParentID": 14,
+    "ID": 18,
+    "Name": "Радиовещание",
+    "Property": "BroadcastingOn"
+  },
+  {
+    "ParentID": 14,
+    "ID": 19,
+    "Name": "Кол. цифровых радиоканалов",
+    "Property": "DigitalChanelCount2"
+  },
+  {
+    "ParentID": 14,
+    "ID": 20,
+    "Name": "Кол. аналоговых радиоканалов",
+    "Property": "AnalogChanelCount2"
+  },
+  {
+    "ParentID": 14,
+    "ID": 21,
+    "Name": "Кол. каналов кабельного ТВ",
+    "Property": "CabelChanelCount"
+  },
+  {
+    "ParentID": 0,
+    "ID": 22,
+    "Name": "Услги почтовой связи",
+    "Property": "PostOn,PostCount,PostOfficeCount,PayphoneCount2"
+  },
+  {
+    "ParentID": 22,
+    "ID": 23,
+    "Name": "Почтовая связь",
+    "Property": "PostOn"
+  },
+  {
+    "ParentID": 22,
+    "ID": 24,
+    "Name": "Количество почтамптов",
+    "Property": "PostCount"
+  },
+  {
+    "ParentID": 22,
+    "ID": 25,
+    "Name": "Количество отделений",
+    "Property": "PostOfficeCount"
+  },
+  {
+    "ParentID": 22,
+    "ID": 26,
+    "Name": "Количество таксофонов",
+    "Property": "PayphoneCount2"
+  },
+  {
+    "ParentID": 0,
+    "ID": 27,
+    "Name": "Универсальные услуги связи",
+    "Property": "CapsCount,CapsJobCount,AccessPointOn,AccessPointCount"
+  },
+  {
+    "ParentID": 27,
+    "ID": 28,
+    "Name": "Количество ПКД (пунктов колл. доступа)",
+    "Property": "CapsCount"
+  },
+  {
+    "ParentID": 27,
+    "ID": 29,
+    "Name": "Количество рабочих мест в ПКД",
+    "Property": "CapsJobCount"
+  },
+  {
+    "ParentID": 27,
+    "ID": 30,
+    "Name": "Точки доступа",
+    "Property": "AccessPointOn"
+  },
+  {
+    "ParentID": 27,
+    "ID": 31,
+    "Name": "Количество точек доступа",
+    "Property": "AccessPointCount"
+  }
+]
